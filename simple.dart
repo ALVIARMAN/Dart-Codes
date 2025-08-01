@@ -12,7 +12,7 @@ void main(){
     }else{
         print('true');
     }
-    
+
     //hash-map: key-value pair
     var map={'name' : 'Alvi', 'age': 22, 'addr' : 'Dhaka'};
     print(map);
@@ -21,5 +21,13 @@ void main(){
     for(var i=0;i<n;i++){
         print('Have a nice day');
     }
+
+    var k={
+        'name':'Detactive K',
+        'age': 35, 
+        'height': 1.85,
+        'isMarried': true
+    };
+    print(k);
     
 }
