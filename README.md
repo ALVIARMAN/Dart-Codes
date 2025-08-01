@@ -1,5 +1,5 @@
 # Dart-Codes
-Aurthor : Alvi Arman
+<h3>Aurthor : Alvi Arman</h3>
 <br>
 <h1> In this repository I will done some dart codes
  with some basic dsa and algorithm  topics. </h1>
