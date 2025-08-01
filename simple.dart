@@ -1,6 +1,20 @@
 void main(){
     var list=[10,20,5,7,9,12];
     print(list);
+    list.add(14);
+    print(list);
+
+    const list2 =['Dhaka','Dinajpur','Cumilla'];
+    //list2.add('Rongpur'); Can't Do that beacause the array is fixed
+
+    list.addAll([33]);
+    print(list);
+    // (pos,[numbers])
+    list.insertAll(1,[50,40,60]);
+    print(list);
+
+
+
 
     var a='Hello';
     var b="world";
@@ -8,9 +22,9 @@ void main(){
     var check=true;
 
     if(check==false){
-        print('false');
+        print(a);
     }else{
-        print('true');
+        print(b);
     }
 
     //hash-map: key-value pair
@@ -29,5 +43,10 @@ void main(){
         'isMarried': true
     };
     print(k);
+
+    
+    
+
+
     
 }
