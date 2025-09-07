@@ -19,7 +19,5 @@ void main() {
   var myClass = new MyClass();
   myClass.fun2();
 
-  int num = 10;
-  String number = num.toString(); //convert it to string
-  print(number);
+ 
 }
