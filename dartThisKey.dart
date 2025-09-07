@@ -1,4 +1,6 @@
 //if any function use same class properties, this keyword to refer the current class object
+import 'dart:collection';
+
 class MyClass {
   int num1 = 5;
   int num2 = 10;
@@ -16,4 +18,8 @@ class MyClass {
 void main() {
   var myClass = new MyClass();
   myClass.fun2();
+
+  int num = 10;
+  String number = num.toString(); //convert it to string
+  print(number);
 }
