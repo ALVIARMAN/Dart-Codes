@@ -4,6 +4,7 @@ class MyClass {
 
   void fun1() {
     var result = this.num1 + this.num2;
+    print(result);
   }
 
   void fun2() {
