@@ -1,3 +1,4 @@
+//if any function use same class properties, this keyword to refer the current class object
 class MyClass {
   int num1 = 5;
   int num2 = 10;
